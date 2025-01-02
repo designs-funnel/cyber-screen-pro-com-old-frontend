@@ -1,0 +1,13 @@
+:root {
+  --custom-color: #ffffff;
+}
+body {
+  padding: 0;
+  margin: 0;
+  background-color: var(--custom-color) !important;
+}
+@media screen and (max-width: 767px) {
+  body {
+    font-size: 13px;
+  }
+}

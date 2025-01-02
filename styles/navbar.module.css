@@ -1,0 +1,225 @@
+.custom_button {
+  /* padding: 0.5rem 3rem; */
+  border: none;
+}
+
+.nav_left_btn {
+  background-color: #748bee !important;
+}
+
+.custom_sidebar_left {
+  padding: 20px 0;
+  width: 250px;
+}
+
+.custom_Table {
+  border: 1px solid white;
+  border-radius: 2px;
+}
+
+.custom_tbody_tr {
+  border: 1px solid white;
+  border-radius: 2px;
+}
+
+.list_group_item {
+  border: none !important;
+  color: black;
+  display: flex;
+  align-items: center;
+  gap: 11px;
+}
+
+.custom_header_list {
+  display: flex;
+  padding: 1.5rem;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.custom_item_list {
+  border: none;
+  cursor: pointer;
+}
+
+.list-group-item.active {
+  background-color: rgb(216, 232, 232);
+  color: black;
+}
+
+.custom_ListGroup {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 25px;
+  cursor: pointer;
+}
+
+.custom_List_col {
+  padding: 1.5rem 0;
+}
+
+.Modal_input_form {
+  text-align: end;
+}
+
+.Modal_fome_btn {
+  /* padding: 0.5rem 3rem; */
+  background-color: #99ffcc;
+  border: none;
+  color: #000;
+}
+.Modal_fome_btn:hover {
+  background-color: #60db9d;
+  border: none;
+  color: #000;
+}
+
+.Modal_filter_btn {
+  background-color: #99ffcc;
+  border: none;
+  margin: 3%;
+  color: #000;
+}
+.Modal_filter_btn:hover {
+  background-color: #60db9d;
+  border: none;
+  color: #000;
+}
+.custom_box_emp_name {
+  color: #06a479;
+  text-decoration: underline;
+}
+
+.custom_table_body_Dropdown_btn {
+  background-color: aliceblue !important;
+  color: #000;
+  border: none;
+}
+
+.custom_table_body_Dropdown_btn:hover {
+  background-color: rgb(174, 176, 178) !important;
+  color: #000;
+}
+
+/*  */
+
+.custom_box_contanner_Row {
+  border: 1px solid #efeef4;
+}
+.custom_Total_Employee {
+  background-color: #c6edde;
+  border-radius: 7px;
+  margin: 0;
+  padding: 2px 5px;
+}
+.custom_Employee {
+  color: #1a1d1f;
+}
+
+.custom_box_contanner_row {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #efeef4;
+  padding: 2% 0;
+}
+
+.custom_box_contanner_row_data {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  gap: 20px;
+  cursor: pointer;
+  border-radius: 20px;
+}
+.custom_box_contanner_emp {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+  border-radius: 20px;
+}
+.custom_box_contanner_row_data img {
+  border-radius: 20px;
+}
+
+.custom_box_contanner_row_data a {
+  display: flex;
+  justify-content: space-around;
+  cursor: pointer;
+  gap: 30px;
+}
+
+.custom_box_contanner_Link {
+  text-decoration: none;
+  color: #000;
+}
+
+.custom_SubMenu_List a {
+  text-decoration: none;
+  color: #000;
+}
+
+.custom_SubMenu_List li {
+  padding-bottom: 0.5rem;
+}
+
+.custom_loge_Forgot_password {
+  cursor: pointer;
+}
+
+.custom_boxImg img {
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+}
+.list_group_item img {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+/* Styles for screens with a maximum width of 767 pixels (typically mobile devices) */
+@media screen and (max-width: 767px) {
+  .custom_ListGroup {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 5px;
+  }
+  .custom_boxImg img {
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+  }
+  .list_group_item img {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+  }
+  .custom_SubMenu_List img {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+  }
+  .custom_box_contanner_row_data {
+    gap: 6px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .custom_box_emp_email {
+    display: none;
+  }
+
+  .custom_box_emp_name {
+    margin: 0;
+  }
+  .custom_card_label {
+    margin: 2% 0;
+  }
+}
